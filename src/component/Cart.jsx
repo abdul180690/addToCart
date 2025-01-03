@@ -56,7 +56,7 @@ const Cart = ({cartAllProduct, setCartAllProduct}) => {
 
                 {
                     cartAllProduct.length > 0 && (
-                        <div className="col-3 mx-3 border rounded position-fixed end-0">
+                        <div className="col-3 mx-3 border rounded fixed end-0 shadow">
                             <h3 className="text-center my-3 bg-primary p-1 rounded text-light">Order Summary</h3>
                             <div className="d-flex justify-content-between">
                                 <p>Subtotal</p>
@@ -84,7 +84,7 @@ const Cart = ({cartAllProduct, setCartAllProduct}) => {
                     <div className="col-12 ">
                         <h1 className="text-center fs-3 my-5 text-danger"><i class="fa-regular fa-face-frown"></i> No Products Available in Cart <i class="fa-regular fa-face-frown"></i></h1>
                         <div className="d-flex justify-content-center align-items-center">
-                            <NavLink to="/" className="list-unstyled text-light pointer text-bg-primary text-decoration-none p-2 rounded shadow font-bold">Shop More</NavLink>
+                            <NavLink to="/products" className="list-unstyled text-light pointer text-bg-primary text-decoration-none p-2 rounded shadow font-bold">Shop More</NavLink>
                         </div>
                     </div>
                     
