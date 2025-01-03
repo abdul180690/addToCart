@@ -1,7 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Afacad Flux', serif;
+}
 .pointer{
   cursor: pointer;
 }
-
+.logo {
+  height: 50px;
+  width: 50px;
+}
 
 
 .product-size{
