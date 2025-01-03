@@ -20,7 +20,8 @@ const productList = [
         isAdded:false,
         type:'Mobile',   
         isTrending:true,
-        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box"
+        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box",
+        category:'Mobile',
     },
     {
         id:2,
@@ -35,7 +36,8 @@ const productList = [
         isAdded:false,
         type:'Mobile',   
         isTrending:false,
-        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box"
+        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box",
+        category:'Mobile',
 
     },
     {
@@ -51,7 +53,8 @@ const productList = [
         isAdded:false,
         type:'Mobile',   
         isTrending:true,
-        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box"
+        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box",
+        category:'Mobile',
     },
     {
         id:4,
@@ -66,7 +69,8 @@ const productList = [
         isAdded:false,
         type:'Mobile',   
         isTrending:false,
-        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box"
+        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box",
+        category:'Mobile',
     },
     {
         id:5,
@@ -81,7 +85,8 @@ const productList = [
         isAdded:false,
         type:'Mobile',   
         isTrending:true,
-        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box"
+        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box",
+        category:'Mobile',
     },
     {
         id:6,
@@ -96,7 +101,8 @@ const productList = [
         isAdded:false,
         type:'Mobile',   
         isTrending:false,
-        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box"
+        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box",
+        category:'Mobile',
     },
     {
         id:7,
@@ -111,7 +117,8 @@ const productList = [
         isAdded:false,
         type:'Mobile',   
         isTrending:false,
-        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box"
+        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box",
+        category:'Mobile',
     },
     {
         id:8,
@@ -126,7 +133,8 @@ const productList = [
         isAdded:false,
         type:'Mobile',   
         isTrending:false,
-        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box"
+        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box",
+        category:'Mobile',
     },
     {
         id:9,
@@ -139,7 +147,8 @@ const productList = [
         isAdded:false,
         type:'Watch',   
         isTrending:true,
-        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box"
+        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box",
+        category:'Gadgets',
     },
     {
         id:10,
@@ -152,7 +161,8 @@ const productList = [
         isAdded:false,
         type:'Watch',   
         isTrending:false,
-        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box"
+        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box",
+        category:'Gadgets',
     },
     {
         id:11,
@@ -165,7 +175,8 @@ const productList = [
         isAdded:false,
         type:'Watch',   
         isTrending:false,
-        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box"
+        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box",
+        category:'Gadgets',
     },
     {
         id:12,
@@ -178,7 +189,9 @@ const productList = [
         isAdded:false,
         type:'Watch',   
         isTrending:true,
-        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box"
+        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box",
+        category:'Gadgets',
+
     },
     {
         id:13,
@@ -191,7 +204,9 @@ const productList = [
         isAdded:false,
         type:'Watch',   
         isTrending:false,
-        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box"
+        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box",
+        category:'Gadgets',
+
     },
     {
         id:14,
@@ -204,7 +219,8 @@ const productList = [
         isAdded:false,
         type:'Watch',   
         isTrending:false,
-        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box"
+        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box",
+        category:'Gadgets',
     },
     {
         id:15,
@@ -217,7 +233,9 @@ const productList = [
         isAdded:false,
         type:'Watch',   
         isTrending:false,
-        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box"
+        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box",
+        category:'Gadgets',
+
     },
     {
         id:16,
@@ -230,7 +248,9 @@ const productList = [
         isAdded:false,
         type:'Watch',   
         isTrending:false,
-        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box"
+        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box",
+        category:'Gadgets',
+
     },
     {
         id:17,
@@ -245,7 +265,8 @@ const productList = [
         isAdded:false,
         type:'Laptop',   
         isTrending:true,
-        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box"
+        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box",
+        category:'Laptops',
     },
     {
         id:18,
@@ -260,7 +281,8 @@ const productList = [
         isAdded:false,
         type:'Laptop',   
         isTrending:false,
-        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box"
+        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box",
+        category:'Laptops',
     },
     {
         id:19,
@@ -275,7 +297,8 @@ const productList = [
         isAdded:false,
         type:'Laptop',   
         isTrending:false,
-        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box"
+        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box",
+        category:'Laptops',
     },
     {
         id:20,
@@ -290,7 +313,8 @@ const productList = [
         isAdded:false,
         type:'Laptop',   
         isTrending:true,
-        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box"
+        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box",
+        category:'Laptops',
     },
     {
         id:21,
@@ -305,7 +329,8 @@ const productList = [
         isAdded:false,
         type:'Laptop',   
         isTrending:false,
-        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box"
+        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box",
+        category:'Laptops',
     },
     {
         id:22,
@@ -320,7 +345,8 @@ const productList = [
         isAdded:false,
         type:'Laptop',   
         isTrending:true,
-        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box"
+        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box",
+        category:'Laptops',
     },
     {
         id:23,
@@ -335,7 +361,8 @@ const productList = [
         isAdded:false,
         type:'Laptop',   
         isTrending:true,
-        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box"
+        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box",
+        category:'Laptops',
     },
     {
         id:24,
@@ -350,7 +377,8 @@ const productList = [
         isAdded:false,
         type:'Laptop',   
         isTrending:true,
-        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box"
+        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box",
+        category:'Laptops',
     },
     {
         id:25,
@@ -364,7 +392,8 @@ const productList = [
         isAdded:false,
         type:"bluetooth , airdopes",
         isTrending:false,
-        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box"
+        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box",
+        category:'Gadgets',
     },
     {
         id:26,
@@ -378,7 +407,8 @@ const productList = [
         isAdded:false,
         type:"bluetooth , airdopes",
         isTrending:false,
-        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box"
+        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box",
+        category:'Gadgets',
     },
     {
         id:27,
@@ -392,7 +422,8 @@ const productList = [
         isAdded:false,
         type:"bluetooth , airdopes",
         isTrending:false,
-         description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box"
+         description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box",
+         category:'Gadgets',
     },
     {
         id:28,
@@ -406,7 +437,8 @@ const productList = [
         isAdded:false,
         type:"bluetooth , airdopes",
         isTrending:false,
-        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box"
+        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box",
+        category:'Gadgets',
     },
     {
         id:29,
@@ -420,7 +452,8 @@ const productList = [
         isAdded:false,
         type:"bluetooth , airdopes",
         isTrending:false,
-        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box"
+        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box",
+        category:'Gadgets',
     },
     {
         id:30,
@@ -434,7 +467,8 @@ const productList = [
         isAdded:false,
         type:"bluetooth , airdopes",
         isTrending:false,
-        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box"
+        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box",
+        category:'Gadgets',
     },
     {
         id:31,
@@ -448,7 +482,8 @@ const productList = [
         isAdded:false,
         type:"bluetooth , airdopes",
         isTrending:false,
-        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box"
+        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box",
+        category:'Gadgets',
     },
     {
         id:32,
@@ -462,7 +497,9 @@ const productList = [
         isAdded:false,
         type:"bluetooth , airdopes",
         isTrending:false,
-        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box"
+        description:"1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box",
+        category:'Gadgets',
+
     },
     {
         id:33,
@@ -475,7 +512,8 @@ const productList = [
         isAdded:false,
         type:'Jeans',   
         isTrending:false,
-        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants."
+        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants.",
+        category:'Fashion',
     
     },
     {
@@ -489,7 +527,9 @@ const productList = [
         isAdded:false,
         type:'Jeans',   
         isTrending:false,
-        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants."
+        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants.",
+        category:'Fashion',
+
     
     },
     {
@@ -503,7 +543,9 @@ const productList = [
         isAdded:false,
         type:'Jeans',   
         isTrending:false,
-        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants."
+        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants.",
+        category:'Fashion',
+
     
     },
     {
@@ -517,7 +559,8 @@ const productList = [
         isAdded:false,
         type:'Jeans',   
         isTrending:true,
-        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants."
+        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants.",
+        category:'Fashion',
     
     },
     {
@@ -531,7 +574,8 @@ const productList = [
         isAdded:false,
         type:'Jeans',   
         isTrending:false,
-        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants."
+        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants.",
+        category:'Fashion',
     
     },
     {
@@ -545,7 +589,8 @@ const productList = [
         isAdded:false,
         type:'Jeans',   
         isTrending:true,
-        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants."
+        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants.",
+        category:'Fashion',
     
     },
     {
@@ -559,7 +604,9 @@ const productList = [
         isAdded:false,
         type:'Jeans',   
         isTrending:false,
-        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants."
+        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants.",
+        category:'Fashion',
+
     
     },
     {
@@ -573,7 +620,8 @@ const productList = [
         isAdded:false,
         type:'Jeans',   
         isTrending:false,
-        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants."
+        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants.",
+        category:'Fashion',
     
     },
     {
@@ -587,7 +635,8 @@ const productList = [
         isAdded:false,
         type:'Shoes',   
         isTrending:false,
-        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants."
+        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants.",
+        category:'Fashion',
     
     },
     {
@@ -601,7 +650,8 @@ const productList = [
         isAdded:false,
         type:'Shoes',   
         isTrending:true,
-        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants."
+        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants.",
+        category:'Fashion',
     
     },
     {
@@ -615,7 +665,8 @@ const productList = [
         isAdded:false,
         type:'Shoes',   
         isTrending:false,
-        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants."
+        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants.",
+        category:'Fashion',
     
     },
     {
@@ -629,7 +680,8 @@ const productList = [
         isAdded:false,
         type:'Shoes',   
         isTrending:true,
-        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants."
+        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants.",
+        category:'Fashion',
     
     },
     {
@@ -643,7 +695,8 @@ const productList = [
         isAdded:false,
         type:'Shoes',   
         isTrending:false,
-        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants."
+        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants.",
+        category:'Fashion',
     
     },
     {
@@ -657,7 +710,8 @@ const productList = [
         isAdded:false,
         type:'Shoes',   
         isTrending:false,
-        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants."
+        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants.",
+        category:'Fashion',
     
     },
     {
@@ -671,7 +725,8 @@ const productList = [
         isAdded:false,
         type:'Shoes',   
         isTrending:false,
-        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants."
+        description:"A soft, breathable jersey which is an excellent choice for the warme,st day. It will mix great with any pair of jeans or pants.",
+        category:'Fashion',
     
     },
     {
@@ -685,7 +740,8 @@ const productList = [
         isAdded:false,
         type:'Shoes',   
         isTrending:false,
-        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants."
+        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants.",
+        category:'Fashion',
     
     },
     {
@@ -699,7 +755,8 @@ const productList = [
         isAdded:false,
         type:'Tshirts',   
         isTrending:false,
-        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants."
+        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants.",
+        category:'Fashion',
     
     },
     {
@@ -713,7 +770,8 @@ const productList = [
         isAdded:false,
         type:'Tshirts',   
         isTrending:false,
-        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants."
+        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants.",
+        category:'Fashion',
     
     },
     {
@@ -727,7 +785,8 @@ const productList = [
         isAdded:false,
         type:'Tshirts',   
         isTrending:false,
-        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants."
+        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants.",
+        category:'Fashion',
     
     },
     {
@@ -741,7 +800,8 @@ const productList = [
         isAdded:false,
         type:'Tshirts',   
         isTrending:false,
-        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants."
+        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants.",
+        category:'Fashion',
     
     },
     {
@@ -755,7 +815,8 @@ const productList = [
         isAdded:false,
         type:'Tshirts',   
         isTrending:false,
-        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants."
+        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants.",
+        category:'Fashion',
     
     },
     {
@@ -769,7 +830,8 @@ const productList = [
         isAdded:false,
         type:'Tshirts',   
         isTrending:true,
-        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants."
+        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants.",
+        category:'Fashion',
     
     },
     {
@@ -783,7 +845,8 @@ const productList = [
         isAdded:false,
         type:'Tshirts',   
         isTrending:false,
-        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants."
+        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants.",
+        category:'Fashion',
     
     },
     {
@@ -797,8 +860,8 @@ const productList = [
         isAdded:false,
         type:'Tshirts',   
         isTrending:false,
-        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants."
-    
+        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants.",
+        category:'Fashion',    
     },
     {
         id:57,
@@ -811,7 +874,8 @@ const productList = [
         isAdded:false,
         type:'Hoody',   
         isTrending:false,
-        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants."
+        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants.",
+        category:'Fashion',
     
     },
     {
@@ -825,7 +889,8 @@ const productList = [
         isAdded:false,
         type:'Hoody',   
         isTrending:false,
-        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants."
+        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants.",
+        category:'Fashion',
     
     },
     {
@@ -839,7 +904,8 @@ const productList = [
         isAdded:false,
         type:'Hoody',   
         isTrending:false,
-        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants."
+        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants.",
+        category:'Fashion',
     
     },
     {
@@ -853,7 +919,8 @@ const productList = [
         isAdded:false,
         type:'Hoody',   
         isTrending:false,
-        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants."
+        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants.",
+        category:'Fashion',
     },
     {
         id:61,
@@ -866,7 +933,8 @@ const productList = [
         isAdded:false,
         type:'Hoody',   
         isTrending:false,
-        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants."
+        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants.",
+        category:'Fashion',
     },
     {
         id:62,
@@ -879,7 +947,8 @@ const productList = [
         isAdded:false,
         type:'Hoody',   
         isTrending:false,
-        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants."
+        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants.",
+        category:'Fashion',
     },
     {
         id:63,
@@ -892,7 +961,8 @@ const productList = [
         isAdded:false,
         type:'Hoody',   
         isTrending:false,
-        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants."
+        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants.",
+        category:'Fashion',
     },
     {
         id:64,
@@ -905,7 +975,8 @@ const productList = [
         isAdded:false,
         type:'Hoody',   
         isTrending:false,
-        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants."
+        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants.",
+        category:'Fashion',
     },
     {
         id:65,
@@ -918,7 +989,8 @@ const productList = [
         isAdded:false,
         type:'Tshirts',   
         isTrending:false,
-        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants."
+        description:"A soft, breathable jersey which is an excellent choice for the warmest day. It will mix great with any pair of jeans or pants.",
+        category:'Fashion',
     
     }
     
