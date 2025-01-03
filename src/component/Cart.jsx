@@ -26,7 +26,7 @@ const Cart = ({cartAllProduct, setCartAllProduct}) => {
         <div className="container-fluid" style={{marginTop:"80px"}}>
             <div className="row p-3 gap-3">
                 {
-                    cartAllProduct?.map((product)=>{
+                    cartAllProduct?.map((product, index)=>{
                         return(
                             <div className="col-8 border rounded d-flex gap-3 ">
                                 <div className="p-1">
@@ -40,9 +40,9 @@ const Cart = ({cartAllProduct, setCartAllProduct}) => {
                                     <p className="m-0 font-size-12 font-bold">{product?.space}</p>
                                     <p className="m-0 font-size-12 font-bold">{product?.camera}</p>
                                     <div className="d-flex gap-3 mt-1">
-                                        <p className="m-0 border p-0 px-2 py-1 rounded pointer" onClick={()=>handleIncrement(product?.id)}>+</p>
-                                        <p className="m-0 fs-4">{product?.count}</p>
                                         <p className="m-0 border p-0 px-2 py-1 rounded pointer" onClick={()=>handleDecrement(product?.id)}>-</p>
+                                        <p className="m-0 fs-4">{product?.count}</p>
+                                        <p className="m-0 border p-0 px-2 py-1 rounded pointer" onClick={()=>handleIncrement(product?.id)}>+</p>
                                     </div>
                                 </div>
                                 <div className="d-flex">

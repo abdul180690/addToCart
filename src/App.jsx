@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Header from "./component/Header";
 import Home from "./component/Home";
+import Products from "./component/Products";
 import Cart from "./component/Cart";
 import About from "./component/About";
 import Contact from "./component/Contact";
@@ -24,7 +25,8 @@ const App =() => {
       <BrowserRouter>
       <Header cartAllProduct={cartAllProduct}/>
       <Routes>
-        <Route path="/" element={<Home setProductId={setProductId}/>} ></Route>
+        <Route path="/" element={<Home/>} ></Route>
+        <Route path="/products" element={<Products setProductId={setProductId}/>} ></Route>
         <Route path="/about" element={<About />} ></Route>
         <Route path="/contact" element={<Contact />} ></Route>
         <Route path="/cart" element={<Cart cartAllProduct={cartAllProduct} setCartAllProduct={setCartAllProduct}/>} ></Route>

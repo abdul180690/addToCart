@@ -1,8 +1,13 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 
 const About = () => {
+  useEffect(() => {
+    document.title = "About Us";
+  }, []);
   return (
-    <div>About Page</div>
+    <>
+      <h1>About Page</h1>
+    </>
   )
 }
 
