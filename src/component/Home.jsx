@@ -2,7 +2,8 @@ import React, {useEffect} from 'react'
 
 const Home = () => {
      useEffect(() => {
-            document.title = "Home";
+           document.title = "Home"; 
+           
         }, []);
     return (
         <>

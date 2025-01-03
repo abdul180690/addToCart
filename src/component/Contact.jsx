@@ -57,11 +57,11 @@ const Contact = () => {
                     </div>
                     <button type="submit">Send Message</button>
                 </form>
-            </div>
+            </div>         
 
         </section>
     </>
     )
 }
   
-export default Contact
+export default Contact;
