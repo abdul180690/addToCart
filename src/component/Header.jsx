@@ -8,9 +8,10 @@ const Header = ({cartAllProduct}) => {
             <div className="row">
                 <div className="col-12 bg-primary d-flex justify-content-between align-items-center px-5">
                     <ul className="d-flex gap-5 align-items-center m-0 p-0 py-3">
-                        <NavLink to="/" className="list-unstyled text-light p-0 pointer text-decoration-none">HOME</NavLink>
-                        <NavLink to="/about" className="list-unstyled text-light p-0 pointer text-decoration-none">ABOUT</NavLink>
-                        <NavLink to="/contact" className="list-unstyled text-light p-0 pointer text-decoration-none">CONTACT</NavLink>
+                        <NavLink to="/" className="list-unstyled text-light p-0 pointer text-decoration-none font-bold">HOME</NavLink>
+                        <NavLink to="/products" className="list-unstyled text-light p-0 pointer text-decoration-none font-bold">PRODUCTS</NavLink>
+                        <NavLink to="/about" className="list-unstyled text-light p-0 pointer text-decoration-none font-bold">ABOUT</NavLink>
+                        <NavLink to="/contact" className="list-unstyled text-light p-0 pointer text-decoration-none font-bold">CONTACT</NavLink>
                     </ul>
                     <ul className="m-0 p-0 py-3 position-relative">
                         <NavLink to="/cart" className="list-unstyled text-light p-0 pointer"><i class="fa-solid fa-cart-shopping fs-3"></i>
@@ -21,7 +22,7 @@ const Header = ({cartAllProduct}) => {
                 </div>
             </div>
         </div>
-    );
+    )
 };
 
 
